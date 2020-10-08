@@ -1,3 +1,4 @@
+import 'package:componentes/src/pages/input_page.dart';
 import 'package:flutter/material.dart';
 
 import 'package:componentes/src/pages/alert_page.dart';
@@ -13,5 +14,6 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'avatar': (BuildContext contex) => AvatarPage(),
     'card': (BuildContext contex) => CardPage(),
     'animatedContainer': (BuildContext contex) => AnimatedContainerPage(),
+    'inputs': (BuildContext contex) => InputPage(),
   };
 }
