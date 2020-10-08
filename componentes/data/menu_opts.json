@@ -30,6 +30,11 @@
             "ruta" : "slider",
             "icon" : "tune",
             "texto": "Slider - Dinámicon con IMAGEN"
+        },
+        {
+            "ruta" : "list",
+            "icon" : "list",
+            "texto": "Listas"
         }
     ]
 }
