@@ -41,8 +41,7 @@ class _ListaPageState extends State<ListaPage> {
         final imagen = _listaNumeros[index];
         return FadeInImage(
           // image: NetworkImage('https://picsum.photos/500/300/?image=$imagen'),
-          image: NetworkImage(
-              'https://picsum.photos/id/237/500/300/?image=$imagen'),
+          image: NetworkImage('https://picsum.photos/500/300/?image=$imagen'),
           placeholder: AssetImage('assets/jar-loading.gif'),
         );
       },
